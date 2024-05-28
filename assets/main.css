@@ -111,6 +111,9 @@ figure>img {
         padding-right: 15px;
         padding-left: 15px;
     }
+    .site-header {
+        padding-left: 15px !important;
+    }
 }
 
 a {
