@@ -98,8 +98,8 @@ figure>img {
 .wrapper {
     max-width: -webkit-calc(800px - (30px * 2));
     max-width: calc(800px - (30px * 2));
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left: 0;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -172,7 +172,7 @@ a:hover {
 .footer-wrapper {
     float: left;
     margin-bottom: 15px;
-    padding-left: 15px;
+    padding-left: 1rem;
     font-size: 1rem;
 }
 
@@ -182,23 +182,34 @@ a:hover {
 }
 
 /* header */
-.site-header {
-    display: block;
-    border-bottom: 1px solid var(--grad-3);
-    /* position: center; */
-    font-size: 2rem;
+.site-title {
     font-weight: bold;
+    font-size: 2rem;
+
+    margin-bottom: 15px;
+}
+
+.site-title:hover {
+    transition: 1s ease-in-out;
+    color: var(--grad-14);
+}
+
+.site-header {
+    padding-left: 30px;
+    padding-top: 1rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--grad-3);
     background-color: var(--grad-16);
+    position: center;
 
     .page-link {
-        color: var(--grad-14);
         font-size: 1.5rem;
         font-weight: normal;
     }
 
     .page-link:hover {
         transition: .5s ease-in-out;
-        color: var(--grad-3); 
+        color: var(--grad-14);
     }
 }
 
@@ -213,4 +224,6 @@ a:hover {
 
 .page-heading {
     font-size: 2rem;
+    padding: 1rem 0;
+
 }
