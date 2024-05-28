@@ -96,8 +96,6 @@ figure>img {
 }
 
 .wrapper {
-    max-width: -webkit-calc(800px - (30px * 2));
-    max-width: calc(800px - (30px * 2));
     margin-right: 0;
     margin-left: 0;
     padding-right: 30px;
@@ -106,8 +104,6 @@ figure>img {
 
 @media screen and (max-width: 800px) {
     .wrapper {
-        max-width: -webkit-calc(800px - (30px));
-        max-width: calc(800px - (30px));
         padding-right: 15px;
         padding-left: 15px;
     }
@@ -208,6 +204,8 @@ a:hover {
     .page-link {
         font-size: 1.5rem;
         font-weight: normal;
+        float: left;
+        padding-right: 1rem;
     }
 
     .page-link:hover {
@@ -223,6 +221,21 @@ a:hover {
     padding: 1rem 0;
     padding-bottom: 15rem;
     flex: 1;
+    
+    p {
+        font-size: 1.25rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    hr {
+        opacity: 0.5;
+        margin: 1rem 0;
+        display: block;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        overflow: hidden;
+    }
 }
 
 .page-heading {
