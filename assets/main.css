@@ -95,6 +95,10 @@ figure>img {
     display: block;
 }
 
+ul {
+    padding-left: 1rem;
+}
+
 .wrapper {
     margin-right: 0;
     margin-left: 0;
