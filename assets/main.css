@@ -107,6 +107,7 @@ figure>img {
         padding-right: 15px;
         padding-left: 15px;
     }
+
     .site-header {
         padding-left: 15px !important;
     }
@@ -220,8 +221,7 @@ a:hover {
 .page-content {
     padding: 1rem 0;
     padding-bottom: 12.5rem;
-    flex: 1;
-    
+
     p {
         font-size: 1.25rem;
         padding-top: 0.5rem;
@@ -244,5 +244,17 @@ a:hover {
 .page-heading {
     font-size: 2rem;
     padding: 1rem 0;
+}
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--grad-3);
+    border-radius: 10px;
 }
