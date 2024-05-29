@@ -95,10 +95,6 @@ figure>img {
     display: block;
 }
 
-ul {
-    padding-left: 1rem;
-}
-
 .wrapper {
     margin-right: 0;
     margin-left: 0;
@@ -238,6 +234,10 @@ a:hover {
 
     h2 {
         padding-top: 0.75rem;
+    }
+
+    ul {
+        padding-left: 1rem;
     }
 }
 
